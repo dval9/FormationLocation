@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="2dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp">
+    <Button
+        android:text="Get GPS Location"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/getGPSButton" />
+    <TextView
+        android:gravity="center"
+        android:text="Formation Area"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <Spinner
+        android:padding="5dp"
+        android:entries="@array/area_dropdown_strings"
+        android:backgroundTint="#D11F08"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/area_dropdown" />
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/formations_pic" 
+            android:adjustViewBounds="true"/>
+    </ScrollView>
 </LinearLayout>

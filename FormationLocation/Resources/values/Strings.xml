@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">FormationLocation</string>
+  <string-array name="area_dropdown_strings">
+    <item>Choose an area</item>
+    <item>Northern Mountains and Foothills</item>
+    <item>Central Mountains and Foothills</item>
+    <item>Southern Mountains and Foothills</item>
+    <item>Northwest Plains</item>
+    <item>Northeast Plains</item>
+    <item>West-Central Plains</item>
+    <item>East-Central Plains</item>
+    <item>South Plains</item>
+  </string-array>
 </resources>
